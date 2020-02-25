@@ -21,7 +21,7 @@ burst_count = 6
 burst_delay = room_speed * 5
 burst_delay_init = room_speed / 2
 
-bullet_speed = 1
+bullet_speed = 0.1
 bullets_per_shot = 5
 
 create_pos_x = x
@@ -30,7 +30,7 @@ create_rot_offset = 0
 create_rot_spd = 7
 
 anchor = noone
-bullet_create = obj_sword
+bullet_create = obj_bullet_accelerate
 bullet_face_dir = true
 
 rotate = true

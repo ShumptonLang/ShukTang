@@ -26,6 +26,7 @@ for (var i = 0; i < bullets_per_shot; i++) {
 	bullet.dir += random_range(-shot_spread_rand, shot_spread_rand) 
 	if bullet_face_dir
 		bullet.image_angle = bullet.dir
+		
 }
 
 if shot_count > 0 {
