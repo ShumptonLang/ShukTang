@@ -79,10 +79,26 @@
             }
         },
         {
+            "Key": "1cc68b9f-5b0c-4a45-92d3-734f276b96f8",
+            "Value": {
+                "id": "11b39e1e-0525-4d61-b5d0-30406d32cd6d",
+                "resourcePath": "sprites\\spr_devler\\spr_devler.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bde76df-40af-41be-b722-5732b4a35937",
             "Value": {
                 "id": "e4a8e458-a6f8-419d-86fc-324f81e86354",
                 "resourcePath": "objects\\obj_player\\obj_player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2e016526-c655-42e9-ae25-4caee794d860",
+            "Value": {
+                "id": "a4b007b1-4bd0-4b28-926b-8a70a3d287b0",
+                "resourcePath": "objects\\obj_devler\\obj_devler.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -188,6 +204,14 @@
                 "id": "c51e043c-1c9d-4cd5-bb8f-0d00eeaeb907",
                 "resourcePath": "sprites\\sprite3\\sprite3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a0be5089-7cab-4963-a617-1673418f0855",
+            "Value": {
+                "id": "16fa1a24-d9b5-4606-bb75-b595e256c27b",
+                "resourcePath": "scripts\\patricianinput\\patricianinput.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -316,7 +340,8 @@
         "9a8a8ebf-f0d3-4306-8ad5-ade1ac75bc76",
         "1635163a-1962-48eb-af94-041c7544142e",
         "4981fb22-4b02-4860-b7e9-0b0e5837f85d",
-        "0ffbfe37-b2b4-4e87-90b5-77e0bf3796f5"
+        "0ffbfe37-b2b4-4e87-90b5-77e0bf3796f5",
+        "a0be5089-7cab-4963-a617-1673418f0855"
     ],
     "tutorial": ""
 }
