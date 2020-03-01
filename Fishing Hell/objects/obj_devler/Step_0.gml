@@ -20,5 +20,7 @@ y += yspd / focus
 
 //collision math here
 if collision_circle(x,y,15,obj_bullet,true,true){
-	image_blend += make_color_rgb(255,0,0)
+	image_blend = make_color_rgb(255,0,0)
 }
+
+image_blend -= make_color_rgb(50,0,0)
