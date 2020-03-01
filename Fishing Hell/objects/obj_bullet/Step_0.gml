@@ -2,12 +2,6 @@
 // You can write your code in this editor
 if face_dir
 	image_angle = dir
-	
-if collision_circle(x,y,15,obj_devler,true,true){
-	image_alpha = 0.25
-}
-else
-	image_alpha = 1	
 
 
 script_execute(state_script[state], arg0, arg1)

@@ -11,3 +11,8 @@ yspd = abs(yinput) ? lengthdir_y(spd, dir) : 0
 
 x += xspd / focus
 y += yspd / focus
+
+//collision math here
+if collision_circle(x,y,15,obj_bullet,true,true){
+	image_blend += make_color_rgb(255,0,0)
+}
