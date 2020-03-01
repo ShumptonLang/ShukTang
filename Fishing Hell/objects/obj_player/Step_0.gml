@@ -9,5 +9,5 @@ dir = point_direction(0,0,xinput,yinput)
 xspd = abs(xinput) ? lengthdir_x(spd, dir) : 0
 yspd = abs(yinput) ? lengthdir_y(spd, dir) : 0
 
-x += xspd
-y += yspd
+x += xspd / focus
+y += yspd / focus

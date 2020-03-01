@@ -1,3 +1,3 @@
 //
 bullet_default_movement()
-spd *= 1.02
+spd *= 1.02 
