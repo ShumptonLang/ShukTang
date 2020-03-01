@@ -10,8 +10,10 @@ yspd = abs(yinput) ? lengthdir_y(spd, dir) : 0
 x_real += xspd / focus
 y_real += yspd / focus
 
-//x = 16*cos(current_time/180)  + x_real + ((random(100)-50)/100) * cos(current_time/30)
-//y = 16*sin(current_time/180) + y_real + ((random(100)-50)/100) * sin(current_time/30) 
+//goofy
+//x = 16*cos(current_time/180/focus)  + x_real + ((random(100)-50)/100) * cos(current_time/30/focus)
+//y = 16*sin(current_time/180/focus) + y_real + ((random(100)-50)/100) * sin(current_time/30/focus) 
 
+//normal
 x += xspd / focus
 y += yspd / focus

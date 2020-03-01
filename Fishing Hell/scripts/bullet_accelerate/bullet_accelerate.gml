@@ -1,3 +1,4 @@
 //
 bullet_default_movement()
-spd *= 1.02 
+exponential = 0.02 / focus
+spd *= 1 + exponential

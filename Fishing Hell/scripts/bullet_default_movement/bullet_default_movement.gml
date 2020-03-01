@@ -1,5 +1,5 @@
 fstrength = 4
-focus = keyboard_check(ord("F")) == true ? fstrength : 1
+focus = keyboard_check(vk_lshift) ? 1 : (keyboard_check(ord("F")) ? fstrength : 1)
 xspd = lengthdir_x(spd, dir) 
 yspd = lengthdir_y(spd, dir) 
 
