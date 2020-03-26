@@ -2,11 +2,10 @@
 // You can write your code in this editor
 event_inherited()
 
-state_script[0] = bullet_accelerate
+vel = 0
+acc = 1
+max_spd = 1
+ang_vel_max = 100
+ang_vel = 100
 
-spd = 0
-dir_rot = 1
-
-arg0 = 3
-arg1 = 1 / room_speed
 
