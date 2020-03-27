@@ -9,7 +9,7 @@ if(pause == true)
 	
 	
 	draw_set_font(f_title);
-	draw_set_color(c_aqua);
+	draw_set_color(c_black);
 	draw_set_alpha(0.70);
 	draw_set_halign(fa_center)
 	draw_set_halign(fa_middle)
@@ -29,7 +29,7 @@ if(pause == true)
 		draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 		
 		draw_set_font(f_title);
-		draw_set_color(c_aqua);
+		draw_set_color(c_black);
 		
 		if (menu_index == i) draw_set_color(c_red);
 		
