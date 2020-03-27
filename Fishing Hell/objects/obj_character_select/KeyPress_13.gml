@@ -33,6 +33,6 @@ switch(menu_index) {
 		room_goto(r_title_screen);
 		break;
 	case 11:
-	
+		room_goto(r_shop);
 		break;
 }

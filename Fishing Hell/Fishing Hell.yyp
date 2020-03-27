@@ -223,6 +223,14 @@
             }
         },
         {
+            "Key": "965eb089-1516-49e5-ba1d-1e0173d9950a",
+            "Value": {
+                "id": "222f022d-a219-40fb-8e24-b91d133ecf4a",
+                "resourcePath": "rooms\\r_shop\\r_shop.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "9a8a8ebf-f0d3-4306-8ad5-ade1ac75bc76",
             "Value": {
                 "id": "e3d3d172-fb84-41ec-9480-0546fe08301d",
@@ -300,6 +308,14 @@
                 "id": "387a2f53-a639-49f3-bcad-f00768c78909",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d42a62fb-fecd-4fc7-81cc-014cb9e930e5",
+            "Value": {
+                "id": "0a72099a-30b9-448e-9a5b-c6e46ef071bc",
+                "resourcePath": "objects\\obj_shop\\obj_shop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
