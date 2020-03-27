@@ -5,20 +5,19 @@ button_w = 180;
 button_padding = 10;
 
 
+button[0] = "Bait Holder";
+button[1] = "Worm";
+button[2] = "Jig";
+button[3] = "Circle";
+button[4] = "Weedless";
+button[5] = "Treble";
+button[6] = "Siwash";
+button[7] = "Octopus";
+button[8] = "Aberdeen";
+button[9] = "Kahkle";
 
-button[0] = "Worm";
-button[1] = "Jig";
-button[2] = "Circle";
-button[3] = "Weedless";
-button[4] = "Treble";
-button[5] = "Siwash";
-button[6] = "Octopus";
-button[7] = "Aberdeen";
-button[8] = "Kahkle";
-
-button[9] = "Bomb";
-button[10] = "Bismuth\nSinker";
-button[11] = "Plastic\nWorm";
+button[10] = "Bomb";
+button[11] = "Sinker";
 button[12] = "Plug";
 button[13] = "Spinner";
 button[14] = "Spoon";
