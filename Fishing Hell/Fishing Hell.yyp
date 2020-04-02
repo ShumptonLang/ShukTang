@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "26bfbc06-5ca6-4b2d-a95a-6de5ca9bd0c2",
+            "Value": {
+                "id": "e78a7518-6a59-4e70-ab22-e43cfc138d92",
+                "resourcePath": "objects\\obj_bait_shop\\obj_bait_shop.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2bde76df-40af-41be-b722-5732b4a35937",
             "Value": {
                 "id": "e4a8e458-a6f8-419d-86fc-324f81e86354",
@@ -372,6 +380,14 @@
                 "id": "80aa5acb-963c-48c2-8713-0801b272b8b6",
                 "resourcePath": "views\\ed09889b-29a0-4f01-9b04-d8c2d8cde57c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f25f5c1f-09d6-4ac5-a165-d7a7a7f983d8",
+            "Value": {
+                "id": "63ed6811-967b-4249-8996-a13983de57b8",
+                "resourcePath": "rooms\\r_bait_shop\\r_bait_shop.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
