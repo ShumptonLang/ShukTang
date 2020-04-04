@@ -3,5 +3,5 @@
 xspd = 0
 yspd = 0
 
-spd = 1
+spd = 0.1
 dir = 0
