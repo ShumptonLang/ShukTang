@@ -3,7 +3,7 @@ switch(menu_index) {
 		room_goto(r_character_select);
 		break;
 	case 1:
-		
+		room_goto(r_test);
 		break;
 	case 2:
 		

@@ -1,6 +1,10 @@
 var i = 0;
 var ii = 0;
 
+draw_set_font(f_title);
+draw_set_color(c_yellow);
+draw_text(900, 30, "Gold: " + string(global.gold));
+
 repeat(buttons) {
 	
 	draw_set_halign(fa_center);
