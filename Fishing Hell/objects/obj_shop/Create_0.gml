@@ -23,7 +23,7 @@ button[13] = "Spinner";
 button[14] = "Spoon";
 button[15] = "Fly";
 
-button[16] = "(Baits)";
+button[16] = "Page 2";
 button[17] = "Back";
 
 buttons = array_length_1d(button);

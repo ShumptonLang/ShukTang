@@ -21,7 +21,7 @@ repeat(buttons) {
 		ii++;
 	}
 	
-	//Broken right now
+	
 	else if (i >= 10 && i < 13)
 	{
 		

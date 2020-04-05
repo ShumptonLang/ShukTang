@@ -48,7 +48,7 @@ switch(menu_index) {
 		
 		break;
 	case 16:
-		
+		room_goto(r_bait_shop);
 		break;
 	case 17:
 		room_goto(r_character_select);
