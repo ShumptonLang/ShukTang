@@ -20,7 +20,7 @@ if(pause == true)
 	
 	draw_set_font(f_title);
 	draw_set_color(c_yellow + c_orange);
-	draw_text(900, 30, "Gold: " + string(global.gold));
+	draw_text(900, 30, "Dolemites: " + string(global.gold));
 	
 	var i = 0;
 	repeat(buttons) {

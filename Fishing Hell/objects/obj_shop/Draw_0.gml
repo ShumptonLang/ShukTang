@@ -3,7 +3,7 @@ var ii = 0;
 
 draw_set_font(f_title);
 draw_set_color(c_yellow);
-draw_text(900, 30, "Gold: " + string(global.gold));
+draw_text(900, 30, "Dolemites: " + string(global.gold));
 
 repeat(buttons) {
 	
