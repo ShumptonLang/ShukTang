@@ -1,11 +1,13 @@
 if(pause == true)
 {
 	
+	
 	draw_set_color(c_blue);
 	draw_set_alpha(0.75);
 	
 	draw_rectangle(view_xport[0], view_yport[0], view_wport[0], view_hport[0], 0);
 	draw_set_alpha(0.70);
+	
 	
 	
 	draw_set_font(f_title);
@@ -15,6 +17,10 @@ if(pause == true)
 	draw_set_halign(fa_middle)
 	draw_text(window_get_width()/2, window_get_height()/2 - 250, "Game Pause");
 	draw_set_color(c_black);
+	
+	draw_set_font(f_title);
+	draw_set_color(c_yellow + c_orange);
+	draw_text(900, 30, "Gold: " + string(global.gold));
 	
 	var i = 0;
 	repeat(buttons) {
