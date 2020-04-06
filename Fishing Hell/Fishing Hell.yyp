@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "72b9cffd-fb5d-4450-b409-65c8963d28c7",
+            "Value": {
+                "id": "7072a9e2-de32-43aa-b027-07e855f15fcf",
+                "resourcePath": "objects\\obj_Jig\\obj_Jig.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "779f6674-71a3-4e52-a45c-39a644a351b5",
             "Value": {
                 "id": "9b7eade6-7ee2-4724-84ad-08567e52691d",
