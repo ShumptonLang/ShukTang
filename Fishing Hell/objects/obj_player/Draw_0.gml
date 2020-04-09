@@ -1,5 +1,5 @@
 if hurt_timer > 0 {
-	var rate = 10
+	var rate = 50
 	image_alpha = (current_time % (rate * 2) >= rate) 
 } else image_alpha = 1	
 
@@ -19,3 +19,8 @@ for (var i = 1; i < segments; ++i) {
 #endregion
 
 draw_sprite_ext(sprite_index, image_index, x, y, image_xscale, image_yscale, image_angle, image_blend, image_alpha)
+
+if hp < 1 {
+	layer_shader("Instances", sh_red)
+	layer_shader("Instances_2", sh_red)
+}
