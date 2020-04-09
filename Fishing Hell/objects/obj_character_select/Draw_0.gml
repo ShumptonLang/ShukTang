@@ -40,3 +40,11 @@ repeat(buttons) {
 	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;	
 }
+
+if (lock_text_timer > 0)
+	{
+		draw_set_font(f_locked);
+		draw_set_color(c_red);
+		draw_text(window_get_width()/2, window_get_height()/2 - 250, "Locked");
+		lock_text_timer--;
+	}

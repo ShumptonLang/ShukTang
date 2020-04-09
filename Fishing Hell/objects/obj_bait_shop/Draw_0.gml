@@ -5,6 +5,11 @@ draw_set_font(f_title);
 draw_set_color(c_yellow);
 draw_text(900, 30, "Dolemites: " + string(global.gold));
 
+draw_set_font(f_locked);
+draw_set_color(c_maroon);
+draw_text(250, 40, "Items");
+draw_text(250, 280, "Baits");
+
 repeat(buttons) {
 	
 	draw_set_halign(fa_center);
@@ -55,3 +60,35 @@ repeat(buttons) {
 	draw_text(xx + button_w/2, yy + button_h/2, button[i]);
 	i++;
 }
+
+if (text_timer > 0)
+	{
+		
+		if (insufficient_funds == true)
+		{
+			draw_set_font(f_locked);
+			draw_set_color(c_red);
+			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Insufficient Funds");
+		}
+		else if (max_amount == true)
+		{
+			draw_set_font(f_locked);
+			draw_set_color(c_blue);
+			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Max Amount\nBought");
+		}
+		else if (purchase == true)
+		{
+			draw_set_font(f_locked);
+			draw_set_color(c_green);
+			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Purchased!");
+		}
+		
+		text_timer--;
+		
+	}
+if (text_timer <= 0)
+	{
+		insufficient_funds = false;
+		max_amount = false;
+		purchase = false;
+	}

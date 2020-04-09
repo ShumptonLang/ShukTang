@@ -1,11 +1,16 @@
+text_timer = -1;
+insufficient_funds = false;
+max_amount = false;
+purchase = false;
+
 menu_x = x;
 menu_y = y;
 button_h = 50;
 button_w = 220;
 button_padding = 10;
 
-button[0] = "Salmon Egg";
-button[1] = "Bobber";
+button[0] = "Sinker";
+button[1] = "Bomb";
 button[2] = "Plastic Worm";
 button[3] = "TBD";
 

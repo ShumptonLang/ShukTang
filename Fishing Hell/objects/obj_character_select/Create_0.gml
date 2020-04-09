@@ -4,14 +4,15 @@ button_h = 50;
 button_w = 180;
 button_padding = 10;
 
+lock_text_timer = -1;
 
-button[0] = "Bait Holder";
+button[0] = "Siwash";
 button[1] = "Worm";
 button[2] = "Jig";
 button[3] = "Circle";
 button[4] = "Weedless";
 button[5] = "Treble";
-button[6] = "Siwash";
+button[6] = "Bait Holder";
 button[7] = "Octopus";
 button[8] = "Aberdeen";
 button[9] = "Kahkle";

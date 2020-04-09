@@ -1,13 +1,13 @@
 switch(menu_index) {
 	case 0:
-		//bait holder
+		//siwash
 		room_goto(r_test);
 		break;
 		
 	case 1:
 		if(global.unlock_worm == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_worm == true)
@@ -20,7 +20,7 @@ switch(menu_index) {
 	case 2:
 		if(global.unlock_jig == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_jig == true)
@@ -33,7 +33,7 @@ switch(menu_index) {
 	case 3:
 		if(global.unlock_circle == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_circle == true)
@@ -46,7 +46,7 @@ switch(menu_index) {
 	case 4:
 		if(global.unlock_weedless == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_weedless == true)
@@ -59,7 +59,7 @@ switch(menu_index) {
 	case 5:
 		if(global.unlock_treble == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_treble == true)
@@ -70,12 +70,12 @@ switch(menu_index) {
 		break;
 		
 	case 6:
-		if(global.unlock_siwash == false)
+		if(global.unlock_bait_holder == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
-		else if(global.unlock_siwash == true)
+		else if(global.unlock_bait_holder == true)
 		{
 			
 			room_goto(r_test);
@@ -85,7 +85,7 @@ switch(menu_index) {
 	case 7:
 		if(global.unlock_octopus == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_octopus == true)
@@ -98,7 +98,7 @@ switch(menu_index) {
 	case 8:
 		if(global.unlock_aberdeen == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_aberdeen == true)
@@ -111,7 +111,7 @@ switch(menu_index) {
 	case 9:
 		if(global.unlock_kahkle == false)
 		{
-			
+			lock_text_timer = room_speed;
 			
 		}
 		else if(global.unlock_kahkle == true)
