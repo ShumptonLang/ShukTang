@@ -1,7 +1,7 @@
 pause = false;
 
-menu_x = window_get_width()/2 - 100;
-menu_y = window_get_height()/2 - 150;
+menu_x = view_wport[0]/2;
+menu_y = view_hport[0]/2;
 button_h = 50;
 button_w = 200;
 button_padding = 10;

@@ -45,6 +45,8 @@ if (lock_text_timer > 0)
 	{
 		draw_set_font(f_locked);
 		draw_set_color(c_red);
-		draw_text(window_get_width()/2, window_get_height()/2 - 250, "Locked");
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_middle);
+		draw_text(view_hport[0]/2 * 1.4, window_get_height()/2 - 250, "Locked");
 		lock_text_timer--;
 	}

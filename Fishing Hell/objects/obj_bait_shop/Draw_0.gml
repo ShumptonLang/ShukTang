@@ -63,24 +63,23 @@ repeat(buttons) {
 
 if (text_timer > 0)
 	{
-		
-		if (insufficient_funds == true)
-		{
-			draw_set_font(f_locked);
-			draw_set_color(c_red);
-			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Insufficient Funds");
-		}
-		else if (max_amount == true)
+		if (max_amount == true)
 		{
 			draw_set_font(f_locked);
 			draw_set_color(c_blue);
-			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Max Amount\nBought");
+			draw_text(window_get_width()/4 + 250, window_get_height()/4, "Max Amount\nBought");
+		}
+		else if (insufficient_funds == true)
+		{
+			draw_set_font(f_locked);
+			draw_set_color(c_red);
+			draw_text(window_get_width()/4 + 250, window_get_height()/4, "Insufficient Funds");
 		}
 		else if (purchase == true)
 		{
 			draw_set_font(f_locked);
 			draw_set_color(c_green);
-			draw_text(window_get_width()/2 + 250, window_get_height()/2 - 250, "Purchased!");
+			draw_text(window_get_width()/4 + 250, window_get_height()/4, "Purchased!");
 		}
 		
 		text_timer--;

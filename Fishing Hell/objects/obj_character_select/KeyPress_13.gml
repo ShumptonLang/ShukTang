@@ -129,6 +129,6 @@ switch(menu_index) {
 		room_goto(r_shop);
 		break;
 		
-	default:
-		break;
+	//default:
+		//break;
 }

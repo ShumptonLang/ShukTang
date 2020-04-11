@@ -9,4 +9,5 @@ else
 	pause = false;
 	instance_activate_all();
 	instance_deactivate_object(obj_leaving);
+	draw_set_alpha(1);
 }
