@@ -1,4 +1,4 @@
-if(pause == true)
+if(global.pause == true)
 {
 	
 	

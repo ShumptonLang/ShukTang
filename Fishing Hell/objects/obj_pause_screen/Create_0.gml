@@ -1,4 +1,4 @@
-pause = false;
+global.pause = false;
 
 menu_x = view_wport[0]/2;
 menu_y = view_hport[0]/2;

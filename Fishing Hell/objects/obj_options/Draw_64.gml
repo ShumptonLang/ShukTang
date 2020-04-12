@@ -7,22 +7,37 @@ draw_set_halign(fa_left);
 draw_rectangle(x, y, view_wport, view_hport[0], 0);
 //draw_set_alpha(0.70);
 draw_set_font(f_title);
-draw_set_color(c_red);
+draw_set_color(c_black);
 draw_set_alpha(0.70);
 
-draw_text(view_wport[0]/2 - 75, view_hport[0]/3, "Are you sure?");
-draw_text(view_wport[0]/2 - 200, view_hport[0]/3 + 50, "(You will lose all unsaved data)");
-draw_set_color(c_black);
+draw_text(menu_x/4, menu_y/8, "Options");
 	
 var i = 0;
 repeat(buttons) {
 			
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_middle);
-		
-	xx = menu_x + (button_w + button_padding) * i + 500 * (1 - unfold[i]) - 125;
-	yy = menu_y - 50;
-		
+	
+	//Constants here are for the spaces between the buttons, not really anything based on resolution or anything like that
+	
+	if (i < 3)
+	{
+		xx = menu_x/4;
+		yy = menu_y/8  + (button_h + button_padding) * i + 500  * (1 - unfold[i]) + 50;
+	}
+	
+	else if (i == 3)
+	{
+		xx = menu_x/4;
+		yy = menu_y/8  + (button_h + button_padding) * i + 500 * (1 - unfold[i]) + 100;
+	}
+	
+	else if (i == 4)
+	{
+		xx = menu_x/4;
+		yy = menu_y/8  + (button_h + button_padding) * i + 500 * (1 - unfold[i]) + 400;
+	}
+	
 	draw_set_color(c_teal);
 	draw_rectangle(xx, yy, xx + button_w, yy + button_h, false);
 		

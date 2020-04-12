@@ -3,7 +3,7 @@ insufficient_funds = false;
 already_owned = false;
 purchase = false;
 
-
+shop_text_x = view_hport[0] / 3;
 
 menu_x = x;
 menu_y = y;

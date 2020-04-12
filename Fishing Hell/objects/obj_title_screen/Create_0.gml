@@ -4,6 +4,7 @@ button_h = 50;
 button_w = 300;
 button_padding = 10;
 
+options_on = false;
 
 button[0] = "New Game";
 button[1] = "Resume Game";

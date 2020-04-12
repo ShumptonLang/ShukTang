@@ -5,10 +5,12 @@ draw_set_font(f_title);
 draw_set_color(c_yellow);
 draw_text(900, 30, "Dolemites: " + string(global.gold));
 
+
+
 draw_set_font(f_locked);
 draw_set_color(c_maroon);
-draw_text(220, 40, "Hooks");
-draw_text(220, 400, "Lures");
+draw_text(shop_text_x, 40, "Hooks");
+draw_text(shop_text_x, 400, "Lures");
 
 repeat(buttons) {
 	
@@ -18,12 +20,12 @@ repeat(buttons) {
 	if (i < 5)
 	{
 	
-	xx = menu_x;
-	yy = menu_y + (button_h + button_padding) * i + 500 * (1 - unfold[i]);
+		xx = menu_x;
+		yy = menu_y + (button_h + button_padding) * i + 500 * (1 - unfold[i]);
 	
 	}
 	
-	else if(i >= 5 && i < 10)
+	else if (i >= 5 && i < 10)
 	{
 		xx = menu_x + (button_w + button_padding) * 1 + 500 * (1 - unfold[i]);
 		yy = menu_y + (button_h + button_padding) * ii + 500 * (1 - unfold[i]);
