@@ -5,6 +5,8 @@ button_h = 50;
 button_w = 200;
 button_padding = 10;
 
+checked = window_get_fullscreen();
+
 button[0] = "Master";
 button[1] = "Music";
 button[2] = "Sound";

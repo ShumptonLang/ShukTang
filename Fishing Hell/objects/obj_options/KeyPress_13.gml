@@ -13,7 +13,8 @@ switch(menu_index) {
 		break;
 		
 	case 3:
-		
+		checked = !checked;
+		window_set_fullscreen(checked);
 		break;
 		
 	case 4:

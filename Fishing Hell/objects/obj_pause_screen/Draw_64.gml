@@ -16,7 +16,7 @@ if(global.pause == true)
 	draw_set_valign(fa_middle);
 	draw_set_halign(fa_center);
 	//THIS CONSTANT IS VERY IMPORTANT
-	draw_text(view_wport[0]/2, view_hport[0]/2 - (window_get_height() * 0.185), "Game Pause");
+	draw_text(view_wport[0]/2, view_hport[0]/3.5, "Game Pause");
 	draw_set_color(c_black);
 	
 	draw_set_font(f_title);
