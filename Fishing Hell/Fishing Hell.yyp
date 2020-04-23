@@ -1106,7 +1106,7 @@
             "Key": "a7ff9321-84a7-4be3-888d-c6f621c4fd9d",
             "Value": {
                 "id": "a442257e-42d2-4182-9a0a-db2111fd2e5e",
-                "resourcePath": "rooms\\r_test\\r_test.yy",
+                "resourcePath": "rooms\\r_test_enemies\\r_test_enemies.yy",
                 "resourceType": "GMRoom"
             }
         },
