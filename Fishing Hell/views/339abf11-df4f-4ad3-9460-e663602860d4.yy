@@ -5,11 +5,8 @@
     "name": "339abf11-df4f-4ad3-9460-e663602860d4",
     "children": [
         "2bde76df-40af-41be-b722-5732b4a35937",
-<<<<<<< HEAD
         "5d93d107-ceff-45f4-9202-d4bfa7d3fd49",
         "80b18922-9b9d-4c29-a6e8-bc38db1aab49",
-=======
->>>>>>> parent of 82b4ed8... Level
         "53e75165-fdd5-4ef6-b089-27aa31334a50",
         "6f31e6d2-db32-4b41-a426-367675e83fe9",
         "4e77b108-b51b-4f7e-933e-cdbccaf49edf",
@@ -36,7 +33,6 @@
         "c6f2fb2f-75b5-43cb-85df-f47210acc37a",
         "5696b37f-8256-4cba-be5a-df0042482917",
         "7b80bbff-0d9e-452f-998c-85e6de81d9e9",
-<<<<<<< HEAD
         "aef8a93d-42e9-47ac-97db-68587070d292",
         "a73d6b00-9b8b-49dd-a70b-44a8597658ba",
         "1f84299c-3e4a-46a7-a9c3-cbfa6a5b71bc",
@@ -69,9 +65,6 @@
         "b1270b95-0bf9-434d-b591-5d0e66b5a9f3",
         "3e5fba7f-cce1-4ad6-ac5c-158877e50ecb",
         "75bb2271-e166-43b6-9303-fab6f9120db8"
-=======
-        "aef8a93d-42e9-47ac-97db-68587070d292"
->>>>>>> parent of 82b4ed8... Level
     ],
     "filterType": "GMObject",
     "folderName": "objects",
