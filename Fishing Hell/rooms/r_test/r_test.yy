@@ -1,6 +1,6 @@
 
 {
-    "name": "r_test_enemies",
+    "name": "r_test",
     "id": "a7ff9321-84a7-4be3-888d-c6f621c4fd9d",
     "creationCodeFile": "",
     "inheritCode": false,
