@@ -672,6 +672,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "c3b0539b-58df-4212-a3ce-a93b5dd7ef4a",
             "Value": {
                 "id": "ecb957e3-dfe3-4bc6-9c22-2e4cdb04b85d",
@@ -712,6 +713,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of 82b4ed8... Level
 =======
 >>>>>>> parent of 82b4ed8... Level
             "Key": "c6f2fb2f-75b5-43cb-85df-f47210acc37a",
@@ -788,6 +791,7 @@
         {
             "Key": "d6f43779-16bb-4940-9c28-bc86763b76e5",
             "Value": {
+<<<<<<< HEAD
                 "id": "c0139d80-221e-4620-841d-4226ca9d1dee",
                 "resourcePath": "objects\\obj_pause_screen\\obj_pause_screen.yy",
                 "resourceType": "GMObject"
@@ -796,6 +800,8 @@
         {
             "Key": "89e62a03-d4de-474c-b623-1d545fbb1b14",
             "Value": {
+=======
+>>>>>>> parent of 82b4ed8... Level
                 "id": "080736ef-ef52-4a82-b41a-ed3cd6375a36",
                 "resourcePath": "sprites\\sprite13\\sprite13.yy",
                 "resourceType": "GMSprite"
@@ -891,6 +897,7 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "Key": "ec8503f8-1850-4161-9369-105f27cd079e",
             "Value": {
                 "id": "d7b2c809-c9d3-4c4a-9ee5-157300606f77",
@@ -907,6 +914,8 @@
             }
         },
         {
+=======
+>>>>>>> parent of 82b4ed8... Level
 =======
 >>>>>>> parent of 82b4ed8... Level
             "Key": "ed09889b-29a0-4f01-9b04-d8c2d8cde57c",
