@@ -20,4 +20,4 @@ spawn_delay = room_speed * 3
 enemy_spawn = obj_fish1
 spawn_script = enemy_spawn_fish1
 
-alarm[1] = 3
+alarm[0] = init_spawn_delay

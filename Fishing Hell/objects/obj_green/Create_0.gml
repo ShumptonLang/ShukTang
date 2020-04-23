@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
-velocity_max = 0.9
+max_spd = 0.9
 state_script[0] = enemy_green_state1
 
 emitter = instance_create_depth(x,y,depth-1,obj_bullet_emitter)

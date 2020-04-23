@@ -2,10 +2,10 @@
 // You can write your code in this editor
 event_inherited()
 
-acceleration = 1
+vel = 0
+acc = 1
+max_spd = 1
+ang_vel_max = 100
+ang_vel = 100
 
-velocity = 0
-velocity_max = 1
 
-angular_velocity = 100
-angular_velocity_max = 100

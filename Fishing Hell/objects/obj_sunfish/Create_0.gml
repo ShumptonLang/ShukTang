@@ -1,11 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
-velocity_max = 1
+max_spd = 1
 
 hp = 30
 
-angular_velocity_max = 30
+ang_vel_max = 30
 
 emitter = instance_create_depth(x,y,depth-1,obj_bullet_emitter)
 emitter.bullet_anchor = noone

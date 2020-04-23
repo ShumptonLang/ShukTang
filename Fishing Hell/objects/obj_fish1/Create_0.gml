@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
-velocity_max = 0.65
-image_rotation = 90
-face_direction = true
-hp = 2
+max_spd = 0.65
+img_rot = 90
+face_dir = true
+
 emitter = instance_create_depth(x,y,depth-1,obj_bullet_emitter)
 emitter.bullet_anchor = noone
 emitter.bullet_speed = 1
