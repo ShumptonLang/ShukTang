@@ -15,11 +15,11 @@ y_real += yspd / focus
 //y = 16*sin(current_time/180/focus) + y_real + ((random(100)-50)/100) * sin(current_time/30/focus) 
 
 //normal
-x += xspd / focus
-y += yspd / focus
+//x += xspd / focus
+//y += yspd / focus
 
 //collision math here
-if collision_circle(x,y,15,obj_bullet,true,true){
+if place_meeting(x, y, obj_bullet) {
 	image_blend += make_color_rgb(255,0,0)
 }
 
