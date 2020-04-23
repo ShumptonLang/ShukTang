@@ -1,5 +1,6 @@
+//
 bullet_default_movement()
-vel = lerp(vel, 0, 0.2) // focus
+spd = lerp(spd, argument0, argument1) / focus
 
-if vel <= 0 + 0.1
+if spd <= argument0 + 0.1
 	state_exit = true
