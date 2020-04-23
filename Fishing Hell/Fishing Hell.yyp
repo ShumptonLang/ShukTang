@@ -1377,14 +1377,6 @@
         {
             "Key": "c54be91c-9b1a-4c2a-b9ac-b525c6dd5aaa",
             "Value": {
-                "id": "3e899d07-ed64-4059-ae6c-871fb4f5b52d",
-                "resourcePath": "fonts\\f_title\\f_title.yy",
-                "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "3e5f0edc-e995-4898-9b60-ca724dc505fa",
-            "Value": {
                 "id": "b8b70d89-9c34-44cd-817b-54f7fdd1a07a",
                 "resourcePath": "scripts\\scr_strfish_missile\\scr_strfish_missile.yy",
                 "resourceType": "GMScript"
@@ -1465,14 +1457,6 @@
         {
             "Key": "d5d9a059-3364-4fc3-a7f0-9b031d9fc9c8",
             "Value": {
-                "id": "df191cb9-b211-4469-940a-ac68abe61eb0",
-                "resourcePath": "objects\\obj_title_screen\\obj_title_screen.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "779f6674-71a3-4e52-a45c-39a644a351b5",
-            "Value": {
                 "id": "e0c14152-caec-4c00-a8a3-d0cc4acdc996",
                 "resourcePath": "sprites\\spr_sunfish\\spr_sunfish.yy",
                 "resourceType": "GMSprite"
@@ -1488,14 +1472,6 @@
         },
         {
             "Key": "d6f43779-16bb-4940-9c28-bc86763b76e5",
-            "Value": {
-                "id": "c0139d80-221e-4620-841d-4226ca9d1dee",
-                "resourcePath": "objects\\obj_pause_screen\\obj_pause_screen.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "89e62a03-d4de-474c-b623-1d545fbb1b14",
             "Value": {
                 "id": "080736ef-ef52-4a82-b41a-ed3cd6375a36",
                 "resourcePath": "sprites\\sprite13\\sprite13.yy",
@@ -1684,14 +1660,6 @@
                 "id": "d7b2c809-c9d3-4c4a-9ee5-157300606f77",
                 "resourcePath": "objects\\o_blood\\o_blood.yy",
                 "resourceType": "GMObject"
-			}
-		},
-		{
-            "Key": "ec96b80d-048e-4779-9754-10bcb2df828b",
-            "Value": {
-                "id": "602333b3-23b2-48ab-9eeb-6fd7ac246c6d",
-                "resourcePath": "rooms\\r_title_screen\\r_title_screen.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
