@@ -45,6 +45,7 @@ assets:
       - "?r_character_select | GMRoom | e6ab6147-d98a-4789-bbd1-3232220872cc | 35c34df1-2ccd-4ea3-be97-999d41997b62"
       - "?r_test | GMRoom | a7ff9321-84a7-4be3-888d-c6f621c4fd9d | a442257e-42d2-4182-9a0a-db2111fd2e5e"
       - "?r_shop | GMRoom | 8048e7f9-a901-42bc-85d0-8af47dbf2adb | fb5033e9-ebc2-4083-9545-b4e4bdf59c03"
+      - "?r_test | GMRoom | a7ff9321-84a7-4be3-888d-c6f621c4fd9d | a442257e-42d2-4182-9a0a-db2111fd2e5e"
   - "notes | GMNotes | e8bfb8b4-615c-4aae-91c0-ce753da0bb05 | 9f754e1d-e033-4823-9d6e-f65bdfff61d8": []
   - "datafiles | GMIncludedFile | e82598ad-bb35-4a41-bf5d-4b3a85eab352 | abf30074-135e-4f4a-87e1-9807594fd530": []
   - "extensions | GMExtension | 5e2570c0-5d53-4b79-be43-9decd6a7fddc | 2b8a3704-d10b-45d0-8b80-977ea993f344": []
