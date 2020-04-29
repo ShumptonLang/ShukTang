@@ -1,8 +1,8 @@
 {
-    "id": "8098f222-258c-4931-9ce8-b0b4d7f61029",
+    "id": "1635163a-1962-48eb-af94-041c7544142e",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "enemy_spawn_fish1",
+    "name": "bullet_accelerate",
     "IsCompatibility": false,
     "IsDnD": false
 }
