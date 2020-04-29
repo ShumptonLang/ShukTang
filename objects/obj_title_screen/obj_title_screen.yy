@@ -1,46 +1,45 @@
 {
-    "id": "b28936fd-36ee-485f-8955-51422f711285",
+    "id": "75bb2271-e166-43b6-9303-fab6f9120db8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_little_bublee",
+    "name": "obj_title_screen",
     "eventList": [
         {
-            "id": "af5e88c2-b9cf-426f-8561-68a04633daec",
+            "id": "7c6b5489-66fe-4fd7-ae54-74684e846e9a",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "b28936fd-36ee-485f-8955-51422f711285"
+            "m_owner": "75bb2271-e166-43b6-9303-fab6f9120db8"
         },
         {
-            "id": "6e34000f-5390-4385-9aed-28661467e788",
+            "id": "71b84c26-f56d-4748-9e68-e6539e9c6fbf",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "b28936fd-36ee-485f-8955-51422f711285"
+            "m_owner": "75bb2271-e166-43b6-9303-fab6f9120db8"
         },
         {
-            "id": "6cccb879-8db2-4d20-be09-9ba583db0932",
+            "id": "d7bfa766-d315-4d4a-9e52-96ee3ec77e87",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 8,
-            "m_owner": "b28936fd-36ee-485f-8955-51422f711285"
+            "m_owner": "75bb2271-e166-43b6-9303-fab6f9120db8"
         },
         {
-            "id": "afe25b65-77d0-4722-a43e-7cb0936d4235",
+            "id": "18fdcc7b-fbfd-4bed-bbea-db86fb952a99",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-<<<<<<< HEAD:objects/obj_title_screen/obj_title_screen.yy
             "enumb": 13,
             "eventtype": 9,
             "m_owner": "75bb2271-e166-43b6-9303-fab6f9120db8"
@@ -64,11 +63,6 @@
             "enumb": 88,
             "eventtype": 9,
             "m_owner": "75bb2271-e166-43b6-9303-fab6f9120db8"
-=======
-            "enumb": 0,
-            "eventtype": 2,
-            "m_owner": "b28936fd-36ee-485f-8955-51422f711285"
->>>>>>> master:objects/obj_little_bublee/obj_little_bublee.yy
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -89,6 +83,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "9d89af16-a9c7-4e80-bc00-a535b059ebed",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }
